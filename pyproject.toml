@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adp-manifest"
+version = "0.1.0"
+description = "Python reference implementation of the Agent Deliberation Protocol (ADP)"
+license = {text = "CC0-1.0"}
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
