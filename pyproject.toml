@@ -6,8 +6,20 @@ build-backend = "setuptools.build_meta"
 name = "adp-manifest"
 version = "0.1.0"
 description = "Python reference implementation of the Agent Deliberation Protocol (ADP)"
-license = {text = "CC0-1.0"}
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [
+    { name = "David H. Friedel Jr.", email = "dave@marketally.com" }
+]
+maintainers = [
+    { name = "MarketAlly", email = "dave@marketally.com" }
+]
 requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://adp-manifest.dev"
+Repository = "https://git.marketally.com/ai-manifests/adp-ref-lib-py"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
