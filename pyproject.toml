@@ -10,10 +10,10 @@ readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 authors = [
-    { name = "David H. Friedel Jr.", email = "dave@marketally.com" }
+    { name = "David H. Friedel Jr.", email = "dave@marketally.ai" }
 ]
 maintainers = [
-    { name = "MarketAlly", email = "dave@marketally.com" }
+    { name = "MarketAlly Pte Ltd", email = "dave@marketally.ai" }
 ]
 requires-python = ">=3.10"
 
