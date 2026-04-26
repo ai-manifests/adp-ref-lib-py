@@ -1,5 +1,11 @@
 # adp-manifest
 
+[![PyPI](https://img.shields.io/pypi/v/adp-manifest.svg?label=PyPI)](https://pypi.org/project/adp-manifest/)
+[![Downloads](https://img.shields.io/pypi/dm/adp-manifest.svg)](https://pypi.org/project/adp-manifest/)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://pypi.org/project/adp-manifest/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Spec](https://img.shields.io/badge/spec-adp--manifest.dev-informational)](https://adp-manifest.dev)
+
 A Python reference implementation of the **Agent Deliberation Protocol (ADP)** specification — the consensus protocol that multi-agent systems use to reach calibrated, falsifiable decisions together. ADP defines proposals, weights, tallies, falsification, termination, and reversibility tiers.
 
 This library is one of several reference implementations ([TypeScript](https://github.com/ai-manifests/adp-ref-lib-ts)) of the same spec. The spec itself is at [adp-manifest.dev](https://adp-manifest.dev) and is the source of truth; this library implements what the spec says.
