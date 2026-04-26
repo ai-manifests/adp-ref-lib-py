@@ -10,16 +10,16 @@ readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE", "NOTICE"]
 authors = [
-    { name = "David H. Friedel Jr.", email = "dave@marketally.ai" }
+    { name = "David H. Friedel Jr.", email = "dev@ai-manifests.org" }
 ]
 maintainers = [
-    { name = "MarketAlly Pte Ltd", email = "dave@marketally.ai" }
+    { name = "MarketAlly Pte Ltd", email = "dev@ai-manifests.org" }
 ]
 requires-python = ">=3.10"
 
 [project.urls]
 Homepage = "https://adp-manifest.dev"
-Repository = "https://git.marketally.com/ai-manifests/adp-ref-lib-py"
+Repository = "https://github.com/ai-manifests/adp-ref-lib-py"
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
